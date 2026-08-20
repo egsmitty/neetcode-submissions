@@ -1,3 +1,7 @@
+// My naive solution under pressure (forgot the reverse() existed) 
+// Panicked on how to use stringbuilder after a while of not using it!
+// Works but very cluttered and not max eff for Space complexity
+
 class Solution {
     public boolean isPalindrome(String s) {
         StringBuilder sb = new StringBuilder();
